@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Open Sans';
+  color: black;
+}
+
+#particles-js {
+  //background: linear-gradient(#1D3943, #9DA081);
+  //background: url("../img/space.jpg");
+  background: moccasin;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 0;
+
+}
+canvas {
+
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+//nav
+.nav{
+  margin-right: 20px;
+  cursor: pointer;
+}
+.nav-list{
+  list-style: none;
+  cursor: pointer;
+  a{
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+    transition: .2s;
+    &:hover{
+      font-size: 20px;
+    }
+  }
+}
+
+//main
+
+.main-name {
+  font-size: 100px;
+  position: relative;
+  z-index: 1;
+}
+
+//media
+
+.media{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: translate(-10%, -50%);
+  font-size: 40px;
+ i{
+   margin-right: 20px;
+   cursor: pointer;
+   transition: .2s;
+   &:hover{
+     font-size: 60px;
+   }
+ }
+}
+
+

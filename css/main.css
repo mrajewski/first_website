@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans';
+  color: black;
+}
+
+#particles-js {
+  background: moccasin;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 0;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+
+.nav {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.nav-list {
+  list-style: none;
+  cursor: pointer;
+}
+
+.nav-list a {
+  font-weight: 600;
+  text-decoration: none;
+  color: black;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.nav-list a:hover {
+  font-size: 20px;
+}
+
+.main-name {
+  font-size: 100px;
+  position: relative;
+  z-index: 1;
+}
+
+.media {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  -webkit-transform: translate(-10%, -50%);
+          transform: translate(-10%, -50%);
+  font-size: 40px;
+}
+
+.media i {
+  margin-right: 20px;
+  cursor: pointer;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.media i:hover {
+  font-size: 60px;
+}
+
+/*# sourceMappingURL=main.css.map */
