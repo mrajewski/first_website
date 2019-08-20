@@ -1,3 +1,3 @@
-# first_website
-My first website CSS/HTML/JS
+# Portfolio project
+first project CSS/HTML/JS
 
